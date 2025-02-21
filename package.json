@@ -2,18 +2,18 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "repository": "https://github.com/repla-asadd2723/backend.git",
+  "author": "asadd2723 <asadu3040@gmail.com>",
   "scripts": {
-    "start": "nodemon app.js"
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
-  "dependencies": {
-    "bcrypt": "^5.1.1",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongodb": "^6.12.0",
-    "mongoose": "^8.10.1",
-    "nodemon": "^3.1.9"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
   }
 }
